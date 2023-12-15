@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 5</title>
+	</head>
+
+	<body>
+		<h1>Fancify your Text</h1>
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<label> Text</label>
+			<textarea id="textinput" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<button onclick="Bigger()">Bigger!</button>
+			<button onclick="Moo()">Moo!</button>
+			
+			<label> FancyShmancy
+				<input type="radio" id="idFancyShmancy" name="radioselect" value="valueFancyShmancy" onchange="ping()" />
+			</label>
+
+			<label> BoringBetty
+				<input type="radio" id="idBoringBetty" name="radioselect" value="valueBoringBetty" onchange="ping()" />
+			</label>
+		</fieldset>
+
+	</body>
+
+	<script src="fancifymytext.js"></script>
+</html>
